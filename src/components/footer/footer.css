@@ -1,0 +1,46 @@
+/* footer */
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #abb2bf;
+    height: 208px;
+    overflow-x: hidden; 
+    margin-top: 145px;
+  }
+  
+  .footer-frame{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo{
+    display: flex;
+    width: 100px;
+  }
+  
+  .footer-email{
+    margin-left: 24px;
+    width: auto;
+  }
+  
+  .footer-context{
+    font-weight: 500px;
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .cosial-header{
+    display: flex;
+    justify-content: center;
+  }
+  .cosial-img{
+    margin-top: 12px;
+  }
+  .footer-ps{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+  }

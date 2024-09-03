@@ -1,0 +1,62 @@
+/* Skils */
+
+.skils {
+    margin-top: 110px;
+  }
+  .skils-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  
+  .skils-header-text {
+    display: flex;
+    color: var(--white, #fff);
+    font-size: 32px;
+    font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .limit-line-skils {
+    height: 1px;
+    width: 240px;
+    background-color: #c778dd;
+    margin-left: 16px;
+  }
+  
+  .skils-frame {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: flex-end;
+  }
+  
+  .skils-item {
+    width: 180px;
+    margin-bottom: 16px;
+  }
+  
+  .skils-item:hover {
+    transform: translate(-3px, -3px); /* x, y*/
+    transition: transform 0.3s;
+  }
+  .skils-name {
+    padding: 8px;
+  }
+  
+  .skils-description {
+    padding: 8px;
+  }
+  
+  .soft-ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  .soft-ul li {
+    padding: 0; 
+   
+  }

@@ -1,0 +1,103 @@
+/* Projects */
+
+.project-border,
+.skils-border {
+  border: 1px solid #abb2bf;
+}
+
+.projects {
+  margin-top: 350px;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.projects-header-text {
+  display: flex;
+  color: var(--white, #fff);
+  font-size: 32px;
+  font-weight: 500;
+  flex-direction: row;
+  align-items: center;
+}
+
+.limit-line-projects {
+  height: 1px;
+  width: 511px;
+  background-color: #c778dd;
+  margin-left: 16px;
+}
+
+.all-projects {
+  font-size: 16px;
+  font-weight: 500;
+  color: #abb2bf;
+}
+
+.all-projects:hover {
+  text-shadow: 0 0 5px #abb2bf;
+}
+
+.projects-frame {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.333% - 16px); /* 33.333% ширина з урахуванням відступу */
+  box-sizing: border-box; /* Враховує padding і border в ширині */
+}
+.projects-item:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s;
+}
+
+.projects-item-img {
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.projects-item-language {
+  height: auto;
+  padding: 8px 8px;
+}
+
+.projects-item-description {
+  height: auto;
+  padding: 8px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.about-info,
+.project-info {
+  border: 1px solid #c778dd;
+  color: white;
+  background-color: transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-info:hover,
+.project-info:hover {
+  background-color: #c778dd;
+  color: white;
+}

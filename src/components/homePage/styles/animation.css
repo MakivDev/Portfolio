@@ -1,0 +1,167 @@
+
+.extension-projects {
+  animation: extension-projects 1s;
+}
+
+@keyframes extension-projects {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 511px;
+  }
+}
+
+.extension-skils {
+  animation: extension-skils 1s;
+}
+
+@keyframes extension-skils {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 240px;
+  }
+}
+
+.extension-about {
+  animation: extension-about 1s;
+}
+
+@keyframes extension-about {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 330px;
+  }
+}
+
+.extension-contacts {
+  animation: extension-contacts 1s;
+}
+
+@keyframes extension-contacts {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 127px;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.quadro {
+  width: 50px;
+  height: 50px;
+  border: 15px dotted white;
+}
+
+.quadro-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+
+.quadro-animation:hover {
+  animation: quadro-animation 2s ease-out infinite;
+}
+
+.quadro-box-animation:hover {
+  animation: quadro-box-animation 2s ease-out infinite;
+}
+
+@keyframes quadro-animation {
+  0%,
+  100% {
+    transform: rotate(180deg);
+  }
+  45% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: rotate(180deg);
+    transform: scale(1.5);
+  }
+}
+@keyframes quadro-box-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: scale(1.5) rotate(-90deg);
+  }
+}
+/* Вбудовані значення animation-timing-function:
+ * 
+ * linear
+ * Швидкість анімації залишається постійною протягом усього циклу.
+ * animation-timing-function: linear;
+ * 
+ * ease
+ * Анімація починається повільно, потім прискорюється і знову сповільнюється до кінця.
+ * animation-timing-function: ease;
+ * 
+ * ease-in
+ * Анімація починається повільно, потім прискорюється до кінця.
+ * animation-timing-function: ease-in;
+ * 
+ * ease-out
+ * Анімація починається швидко, потім сповільнюється до кінця.
+ * animation-timing-function: ease-out;
+ * 
+ * ease-in-out
+ * Анімація починається повільно, прискорюється посередині, а потім знову сповільнюється до кінця.
+ * animation-timing-function: ease-in-out;
+ * 
+ * step-start
+ * Анімація стрибає до кінцевого значення на початку циклу (еквівалент steps(1, start)).
+ * animation-timing-function: step-start;
+ * 
+ * step-end
+ * Анімація стрибає до кінцевого значення наприкінці циклу (еквівалент steps(1, end)).
+ * animation-timing-function: step-end;
+ * 
+ * steps(int, start|end)
+ * Анімація розбивається на кілька рівних кроків, які виконуються на початку (start) або в кінці (end) кожного кроку.
+ * animation-timing-function: steps(4, end);
+ * 
+ * cubic-bezier(x1, y1, x2, y2)
+ * Власна крива Безьє для створення користувацького графіку швидкості анімації.
+ * animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+ */

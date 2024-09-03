@@ -1,0 +1,59 @@
+/* Contacts */
+
+.contacts-header-text {
+    display: flex;
+    color: var(--white, #fff);
+    font-size: 32px;
+    font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .limit-line-contacts {
+    height: 1px;
+    width: 127px;
+    background-color: #c778dd;
+    margin-left: 16px;
+  }
+  
+  
+  /* contacts */
+  .contacts {
+    margin-top: 110px;
+  }
+  
+  .contacts-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+  
+  }
+  .contacts-text {
+    width: 505px;
+    height: auto;
+  }
+  
+  .contacts-message {
+    border: 1px solid #abb2bf;
+    width: 300px;
+    height: auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .contacts-message-header {
+    font-weight: 600;
+  }
+  
+  .contacts-message-item1,
+  .contacts-message-item2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+  }
