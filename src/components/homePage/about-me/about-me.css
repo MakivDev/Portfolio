@@ -1,0 +1,47 @@
+/* About me */
+
+.about-me {
+    margin-top: 110px;
+  }
+  /* шапка */
+  .about-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  
+  .about-header-text {
+    display: flex;
+    color: var(--white, #fff);
+    font-size: 32px;
+    font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .limit-line-about {
+    height: 1px;
+    width: 330px;
+    background-color: #c778dd;
+    margin-left: 16px;
+  }
+  
+  /* про мене фрейм */
+  
+  .about-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .about-text {
+    margin-bottom: 35px;
+    width: 515px;
+  }
+  
+  .about-img {
+    width: 343px;
+    height: auto;
+  }

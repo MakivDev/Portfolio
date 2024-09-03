@@ -1,0 +1,65 @@
+
+@media (max-width: 900px) {
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-item {
+    min-width: 330px;
+  }
+
+  .limit-line-projects,
+  .limit-line-skils,
+  .limit-line-about,
+  .limit-line-contacts {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-frame {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contacts-text,
+  .about-text {
+    margin-top: 16px;
+    max-width: 90vw;
+  }
+  .contacts-frame {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts-message {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 630px) {
+  .projects-header-text,
+  .skils-header-text,
+  .about-header-text {
+    font-size: 18px;
+  }
+  .skils-frame {
+    flex-direction: column;
+    align-items: center;
+  }
+  .limit-line-projects,
+  .limit-line-skils,
+  .limit-line-about,
+  .limit-line-contacts {
+    max-width: 40vw;
+  }
+  .footer-frame{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-ps,
+  .footer-right{
+    margin-top: 16px;
+  }
+}

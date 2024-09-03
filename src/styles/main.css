@@ -1,0 +1,19 @@
+@import url(reset.css);
+/*  _________________  _________________  _________________ */
+/* _________________INDEX.HTML _________________ */
+/*  _________________  _________________  _________________ */
+body {
+  background: #282c33;
+  color: #abb2bf;
+  font-family: "Fira Code", monospace;
+}
+
+.container {
+  max-width: 1084px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.special-text {
+    color: var(--primary, #c778dd);
+  }
