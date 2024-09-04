@@ -47,22 +47,25 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .projects-item {
   display: flex;
   flex-direction: column;
-  width: calc(33.333% - 16px); /* 33.333% ширина з урахуванням відступу */
-  box-sizing: border-box; /* Враховує padding і border в ширині */
+  width: calc(33.333% - 16px);
+  /* 33.333% ширина з урахуванням відступу */
+  box-sizing: border-box;
+  /* Враховує padding і border в ширині */
 }
+
 .projects-item:hover {
   transform: translateY(-10px);
   transition: transform 0.3s;
 }
 
 .projects-item-img {
-  height: auto;
+  height: auto; 
   padding-top: 0px;
   padding-bottom: 0px;
 }

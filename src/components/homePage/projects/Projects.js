@@ -1,4 +1,5 @@
 import ProjecImgGarageHub from "./img/Project1.png"
+import ProjecImgMyPhoto from "./img/Project2.png"
 import "./projects.css"
 
 const Projects = () => {
@@ -33,49 +34,19 @@ const Projects = () => {
               </div>
             </div>
   
-            <div className="projects-item">
-              <div className="projects-item-img bode project-border">
-                <img src={ProjecImgGarageHub} alt="Project1" />
-              </div>
-              <div className="projects-item-language project-border">
-                HTML, CSS, Django (Python), Bootstrap
-              </div>
-              <div className="projects-item-description project-border">
-                <p className="project-name">GarageHub</p>
-                <p className="project-description">
-                  Онлайн магазин продажу автозапчастин
-                </p>
-                <button className="project-info">Детальніше ←→</button>
-              </div>
-            </div>
+            
   
             <div className="projects-item">
               <div className="projects-item-img bode project-border">
-                <img src={ProjecImgGarageHub} alt="Project1" />
+                <img src={ProjecImgMyPhoto} alt="Project1" />
               </div>
               <div className="projects-item-language project-border">
-                HTML, CSS, Django (Python), Bootstrap
+                HTML, CSS, React
               </div>
               <div className="projects-item-description project-border">
-                <p className="project-name">GarageHub</p>
+                <p className="project-name">Портфоліо</p>
                 <p className="project-description">
-                  Онлайн магазин продажу автозапчастин
-                </p>
-                <button className="project-info">Детальніше ←→</button>
-              </div>
-            </div>
-  
-            <div className="projects-item">
-              <div className="projects-item-img bode project-border">
-                <img src={ProjecImgGarageHub} alt="Project1" />
-              </div>
-              <div className="projects-item-language project-border">
-                HTML, CSS, Django (Python), Bootstrap
-              </div>
-              <div className="projects-item-description project-border">
-                <p className="project-name">GarageHub</p>
-                <p className="project-description">
-                  Онлайн магазин продажу автозапчастин
+                Власне портфоліо, створене з метою почати вивчення React та розповісти про себе
                 </p>
                 <button className="project-info"> Детальніше ←→</button>
               </div>
