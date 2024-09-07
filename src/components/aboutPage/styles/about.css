@@ -1,0 +1,18 @@
+.about-page-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 115px;
+    margin-bottom: 70px;
+  }
+
+.about-page-header-text{
+    display: flex;
+    color: var(--white, #fff);
+    font-size: 32px;
+    font-weight: 500;
+    flex-direction: row;
+
+}
+
