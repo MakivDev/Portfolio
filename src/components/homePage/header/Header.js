@@ -4,13 +4,13 @@ import MyPhoto1 from "./img/MyPhoto1.png"
 
 import "./header.css"
 const Header = () => {
-    return ( 
-      <div className="header">
+  return (
+    <div className="header">
 
       <div className="header-row">
         <div className="about-me-container">
           <div className="about-me-text">
-            <div className="about-me-text-1 "  data-aos="flip-up">
+            <div className="about-me-text-1 " data-aos="flip-up">
               <p>
                 Makiv як
                 <span className="special-text"> веб-дизайнер</span> та
@@ -45,8 +45,8 @@ const Header = () => {
         </div>
       </div>
     </div>
-    
-      );
+
+  );
 }
- 
+
 export default Header;

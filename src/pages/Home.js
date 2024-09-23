@@ -8,16 +8,16 @@ import "./../components/homePage/styles/animation.css"
 import "./../components/homePage/styles/media.css"
 
 const Home = () => {
-    return ( 
+    return (
         <>
-        <Header />
-        <Projects/>
-        <Skills/>
-        <AboutMe/>
-        <Contacts/>
-        
+            <Header />
+            <Projects />
+            <Skills />
+            <AboutMe />
+            <Contacts />
+
         </>
-     );
+    );
 }
- 
+
 export default Home;

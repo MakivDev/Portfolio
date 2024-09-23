@@ -1,9 +1,9 @@
 const SmallProjects = () => {
-    return ( 
+    return (
         <>
-        
+
         </>
-     );
+    );
 }
- 
+
 export default SmallProjects;

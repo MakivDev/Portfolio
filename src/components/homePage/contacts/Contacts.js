@@ -3,9 +3,9 @@ import './contacts.css'
 import EmailImg from './img/Email.svg'
 
 const Contacts = () => {
-    return (  <div className="contacts">
+    return (<div className="contacts">
         <div className="container">
-           
+
             <div className="contacts-header">
                 <div className="contacts-header-text">
                     <p><span className="special-text">#</span>Контакти</p>
@@ -19,18 +19,18 @@ const Contacts = () => {
                 <div className="contacts-message">
                     <div className="contacts-message-header" data-aos="fade-down-up"> Напишіть мені </div>
                     <div className="contacts-message-item1" data-aos="zoom-in">
-                        <img src={EmailImg} alt=""/>
+                        <img src={EmailImg} alt="" />
                         <p>maks.ku4.rb@gmail.com</p>
                     </div>
                     <div classNameName="contacts-message-item2" data-aos="zoom-in">
-                        <img src={EmailImg} alt=""/>
+                        <img src={EmailImg} alt="" />
                         <p>maks.ku4.rb@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
-      </div> );
+    </div>);
 }
- 
+
 
 export default Contacts;

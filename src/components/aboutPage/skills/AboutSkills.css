@@ -1,9 +1,11 @@
-/* Skils */
+/* Skills */
 
-.skils {
+.skills {
     margin-top: 110px;
+   
   }
-  .skils-header {
+  
+  .skills-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,7 +13,7 @@
     margin-bottom: 48px;
   }
   
-  .skils-header-text {
+  .skills-header-text {
     display: flex;
     color: var(--white, #fff);
     font-size: 32px;
@@ -20,7 +22,7 @@
     align-items: center;
   }
   
-  .limit-line-skils {
+  .line-limit {
     height: 1px;
     width: 240px;
     background-color: #c778dd;
@@ -31,34 +33,36 @@
     display: flex;
     flex-direction: row;
     gap: 16px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
+    justify-content: center;
+}
   
   .skills-item {
-    width: auto;
+    width: 180px;
     margin-bottom: 16px;
   }
   
-  
-  .skils-item:hover {
-    transform: translate(-3px, -3px); /* x, y*/
+  .skills-item:hover {
+    transform: translate(-3px, -3px);
     transition: transform 0.3s;
   }
-  .skils-name {
+  
+  .skills-name {
     padding: 8px;
+    border: 1px solid #ffffff;
   }
   
-  .skils-description {
+  .skills-description {
     padding: 8px;
+    border: 1px solid #ffffff;
   }
   
   .soft-ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
     margin: 0;
   }
+  
   .soft-ul li {
-    padding: 0; 
-   
+    padding: 0;
   }
+  

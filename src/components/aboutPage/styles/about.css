@@ -4,7 +4,7 @@
     align-items: flex-start;
     justify-content: center;
     margin-top: 115px;
-    margin-bottom: 70px;
+    margin-bottom: 114px;
   }
 
 .about-page-header-text{
@@ -13,6 +13,7 @@
     font-size: 32px;
     font-weight: 500;
     flex-direction: row;
+    
 
 }
 
