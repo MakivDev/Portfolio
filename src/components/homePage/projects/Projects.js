@@ -41,7 +41,7 @@ const Projects = () => {
               <img src={ProjecImgMyPhoto} alt="Project1" />
             </div>
             <div className="projects-item-language project-border">
-              HTML, CSS, React
+              HTML, CSS, JavaScript, React
             </div>
             <div className="projects-item-description project-border">
               <p className="project-name">Портфоліо</p>
