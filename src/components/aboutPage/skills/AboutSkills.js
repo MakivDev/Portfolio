@@ -4,7 +4,6 @@ const AboutSkills = () => {
   return (
     <div className="skills">
       <div className="container">
-
         <div className="skills-header">
           <div className="skills-header-text">
             <p><span className="special-text">#</span>Навички</p>
@@ -67,7 +66,6 @@ const AboutSkills = () => {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import './about-me.css'
 import AboutImage from './img/about-image.png'
+import { Link, useLocation } from 'react-router-dom';
 
 
 const AboutMe = () => {
@@ -22,7 +23,8 @@ const AboutMe = () => {
               <br /><br />
 
             </p>
-            <button class="about-info">Більше →</button>
+            <Link className="about-info" to="/projects" ><button>Більше →</button> </Link>
+            
           </div>
         </div>
         <div class="about-img">

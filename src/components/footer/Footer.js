@@ -1,5 +1,7 @@
+import LogoWhite from "./img/LogoWhite.png";
 import EmailImg from './img/Email.svg'
 import './footer.css'
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -7,7 +9,7 @@ const Footer = () => {
                 <div className="footer-frame" data-aos="fade-down">
                     <div className="footer-left">
                         <div className="footer-logo">
-                            <img className="logo-img" src="img/nav/LogoWhite.png" alt="LogoWhite" />
+                            <img className="logo-img" src={LogoWhite} alt="LogoWhite" />
                             <p className="logo-name">Makiv</p>
                             <p className="footer-email">maks.ku4.rb@gmail.com</p>
                         </div>

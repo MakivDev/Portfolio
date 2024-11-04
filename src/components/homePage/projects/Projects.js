@@ -1,7 +1,7 @@
 import ProjecImgGarageHub from "./img/Project1.png"
 import ProjecImgMyPhoto from "./img/Project2.png"
 import "./projects.css"
-
+import { Link, useLocation } from 'react-router-dom';
 const Projects = () => {
   return (
     <div className="projects">
@@ -13,7 +13,8 @@ const Projects = () => {
             <div className="limit-line-projects" id="limit-line-projects"></div>
           </div>
           <div>
-            <a className="all-projects" href="#!">всі →</a>
+          <Link className="all-projects" to="/about" >всі → </Link>
+           
           </div>
         </div>
 

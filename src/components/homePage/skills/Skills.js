@@ -1,66 +1,64 @@
-import './skills.css'
+import './skills.css';
+
 const Skills = () => {
-  return (<div class="skils">
-    <div class="container">
+  return (
+    <div className="skills">
+      <div className="container">
 
-      <div class="skils-header">
-        <div class="skils-header-text">
-          <p><span class="special-text">#</span>Навички</p>
-          <div class="limit-line-skils" id="limit-line-skils"></div>
-        </div>
-      </div>
-      <div class="skils-frame">
-        <div class="quadro-box quadro-box-animation">
-          <div class="quadro quadro-animation "></div>
-        </div>
-
-        <div>
-          <div class="skils-item">
-
-            <div class="skils-name skils-border">
-              <p>Мови</p>
-            </div>
-            <div class="skils-description skils-border">
-              <p> Python HTML CSS JavaScript</p>
-            </div>
+        <div className="skills-header">
+          <div className="skills-header-text">
+            <p><span className="special-text">#</span>Навички</p>
+            <div className="line-limit" id="line-limit"></div>
           </div>
         </div>
-        <div>
-          <div class="skils-item">
-            <div class="skils-name skils-border">
-              <p>БазиДаних</p>
+
+        <div className="skills-frame">
+          <div className="box box-animation">
+            <div className="square square-animation"></div>
+          </div>
+
+          <div className="skills-item">
+            <div className="skills-name skills-border">
+              <p>Мови</p>
             </div>
-            <div class="skils-description skils-border">
+            <div className="skills-description skills-border">
+              <p>Python HTML CSS JavaScript</p>
+            </div>
+          </div>
+
+          <div className="skills-item">
+            <div className="skills-name skills-border">
+              <p>Бази Даних</p>
+            </div>
+            <div className="skills-description skills-border">
               <p>SQLite, SQL</p>
             </div>
           </div>
 
-          <div class="skils-item">
-            <div class="skils-name skils-border">
-              <p>Фраємворки</p>
+          <div className="skills-item">
+            <div className="skills-name skills-border">
+              <p>Фреймворки</p>
             </div>
-            <div class="skils-description skils-border">
-              <p> REACT Django AOS</p>
+            <div className="skills-description skills-border">
+              <p>REACT Django AOS</p>
             </div>
           </div>
-        </div>
 
-        <div>
-          <div class="skils-item">
-            <div class="skils-name skils-border">
+          <div className="skills-item">
+            <div className="skills-name skills-border">
               <p>Інструменти</p>
             </div>
-            <div class="skils-description skils-border">
+            <div className="skills-description skills-border">
               <p>VSCode Windows Figma Git Photoshop npm</p>
             </div>
           </div>
 
-          <div class="skils-item">
-            <div class="skils-name skils-border">
+          <div className="skills-item">
+            <div className="skills-name skills-border">
               <p>Soft навички:</p>
             </div>
-            <div class="skils-description skils-border">
-              <ul class="soft-ul">
+            <div className="skills-description skills-border">
+              <ul className="soft-ul">
                 <li>Комунікабельність</li>
                 <li>Креативність</li>
                 <li>Стресостійкість</li>
@@ -69,10 +67,11 @@ const Skills = () => {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </div>
-  </div>);
+  );
 }
 
 export default Skills;
