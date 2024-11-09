@@ -242,7 +242,7 @@
   align-items: center;
 }
 
-.line-limit {
+.limit-line {
   height: 1px;
   width: 240px;
   background-color: #c778dd;
@@ -337,12 +337,7 @@
   align-items: center;
 }
 
-.limit-line-contacts {
-  height: 1px;
-  width: 127px;
-  background-color: #c778dd;
-  margin-left: 16px;
-}
+
 
 .contacts {
   margin-top: 110px;

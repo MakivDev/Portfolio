@@ -1,0 +1,51 @@
+.extension-projects {
+  animation: extension-projects 1s forwards;
+}
+
+@keyframes extension-projects {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 511px;
+  }
+}
+
+.extension-skils {
+  animation: extension-skils 1s forwards;
+}
+
+@keyframes extension-skils {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 240px;
+  }
+}
+
+.extension-about {
+  animation: extension-about 1s forwards;
+}
+
+@keyframes extension-about {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 330px;
+  }
+}
+
+.extension-contacts {
+  animation: extension-contacts 1s forwards;
+}
+
+@keyframes extension-contacts {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 127px;
+  }
+}

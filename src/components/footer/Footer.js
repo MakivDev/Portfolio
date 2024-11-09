@@ -1,5 +1,10 @@
 import LogoWhite from "./img/LogoWhite.png";
-import EmailImg from './img/Email.svg'
+import Discord from './img/discord.svg'
+import Instagram from './img/instagram.svg'
+import Github from './img/github.svg'
+
+
+
 import './footer.css'
 
 const Footer = () => {
@@ -21,9 +26,16 @@ const Footer = () => {
 
                         <div className="cosial-header">Соцмережі</div>
                         <div className="cosial-img">
-                            <img src={EmailImg} alt="" />
-                            <img src={EmailImg} alt="" />
-                            <img src={EmailImg} alt="" />
+                            <a href="https://discord.gg/r4BTxmgy" target="_blank" >
+                                <img className="media" src={Discord} alt="Discord" />
+                            </a>
+                            <a href="https://github.com/MakivDev" target="_blank" >
+                                <img className="media" src={Github} alt="Github" />
+                            </a>
+                            <a href="https://instagram.com/makivij_" target="_blank" >
+                                <img className="media" src={Instagram} alt="Instagram" />
+                            </a>
+
                         </div>
                     </div>
                 </div>

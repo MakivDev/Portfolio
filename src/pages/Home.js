@@ -4,6 +4,10 @@ import './../components/homePage/styles/animation.css';
 import './../components/homePage/styles/media.css';
 import './../components/homePage/styles/home.css';
 
+import './../animations/animation.css'; // Стилі для анімацій
+import './../animations/animation.js'; // Скрипт анімацій
+
+
 import LogoNeon from './../components/homePage/img/LogoNeon.png';
 import MyPhoto1 from './../components/homePage/img/MyPhoto1.png';
 import ProjectImgGarageHub from './../components/homePage/img/Project1.png';
@@ -49,7 +53,7 @@ const Home = () => {
                     <div className="projects-header">
                         <div className="projects-header-text">
                             <p><span className="special-text">#</span>Проекти</p>
-                            <div className="limit-line-projects" id="limit-line-projects"></div>
+                            <div className="limit-line-projects  " id="line-limit-project"></div>
                         </div>
                         <Link className="all-projects" to="/about">всі →</Link>
                     </div>
@@ -89,7 +93,7 @@ const Home = () => {
                     <div className="skills-header">
                         <div className="skills-header-text">
                             <p><span className="special-text">#</span>Навички</p>
-                            <div className="line-limit" id="line-limit"></div>
+                            <div className="line-limit " id="line-limit-skills"></div>
                         </div>
                     </div>
 
@@ -122,7 +126,7 @@ const Home = () => {
                     <div className="about-header">
                         <div className="about-header-text">
                             <p><span className="special-text">#</span>Про себе</p>
-                            <div className="limit-line-about" id="limit-line-about"></div>
+                            <div className="limit-line-about " id="line-limit-about"></div>
                         </div>
                     </div>
 
@@ -132,7 +136,7 @@ const Home = () => {
                                 Привіт! В резюме я згадував ім'я Makiv — це прізвисько, яке мені дали мої друзі, і воно мені дуже до вподоби. Однак офіційно я використовую ім'я Максим, або просто Макс.
                                 Я фронтенд-розробник самоук з Києва, Україна. Моя ціль — створювати неймовірні вебсайти, які не просто працюють, а вражають і захоплюють користувачів.
                             </p>
-                            <Link className="about-info" to="/projects"><button>Більше →</button></Link>
+                            <Link className="about-info" to="/about"><button>Більше →</button></Link>
                         </div>
                         <div className="about-img">
                             <img src={AboutImage} alt="About" />
@@ -146,7 +150,7 @@ const Home = () => {
                     <div className="contacts-header">
                         <div className="contacts-header-text">
                             <p><span className="special-text">#</span>Контакти</p>
-                            <div className="limit-line-contacts" id="limit-line-contacts"></div>
+                            <div className="line-limit " id="line-limit-contacts"></div>
                         </div>
                     </div>
                     <div className="contacts-frame">
@@ -155,8 +159,9 @@ const Home = () => {
                         </div>
                         <div className="contacts-message">
                             <div className="contacts-message-items" data-aos="zoom-in">
-                                <div><img className="contacts-message-img" src={EmailImg} alt="" /> <p>maks.ku4.rb@gmail.com</p></div>
-                                <div><img className="contacts-message-img" src={TelegramImg} alt="" /> <p>@Makiv_dev</p></div>
+
+                                <div><img className="contacts-message-img" src={EmailImg} alt="" />  <a className='href' target="_blank" href='mailto:maks.rb.ku4@gmail.com'><p>maks.ku4.rb@gmail.com</p></a>  </div>
+                                <div><img className="contacts-message-img" src={TelegramImg} alt="" /> <a className='href' target="_blank" href="https://t.me/Maakiv"><p>@Makiv_dev</p></a></div>
                             </div>
                         </div>
                     </div>
@@ -164,12 +169,7 @@ const Home = () => {
             </section>
         </>
     );
-};
-
-
-
-
-
-
+}
 
 export default Home;
+
