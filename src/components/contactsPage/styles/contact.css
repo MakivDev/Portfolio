@@ -72,3 +72,24 @@
 .connect-options-items p:hover {
     color: #c778dd;
 }
+
+
+
+.contacts-availability {
+    margin-top: 30px;
+    text-align: center;
+    color: #abb2bf;
+}
+
+.contacts-availability h3 {
+    font-size: 1.5em;
+    color: var(--white, #fff);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contacts-availability p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}

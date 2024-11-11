@@ -10,6 +10,7 @@ const About = () => {
             <p>
               <span className="special-text">/</span>Про-мене
             </p>
+            
           </div>
           <p className="about-description">хто я?</p>
         </div>
@@ -39,7 +40,7 @@ const About = () => {
               <p>
                 <span className="special-text">#</span>Навички
               </p>
-              <div className="line-limit" id="line-limit"></div>
+              <div className="line-limit " id="line-limit-skills"></div>
             </div>
           </div>
 

@@ -5,7 +5,9 @@ import './../components/homePage/styles/media.css';
 import './../components/homePage/styles/home.css';
 
 import './../animations/animation.css'; // Стилі для анімацій
-import './../animations/animation.js'; // Скрипт анімацій
+import './../animations/animation.js'; 
+
+// Імпортуємо компонент для паралакса
 
 
 import LogoNeon from './../components/homePage/img/LogoNeon.png';
@@ -19,6 +21,7 @@ import TelegramImg from './../components/homePage/img/Telegram.svg';
 const Home = () => {
     return (
         <>
+       
             <header className="header">
                 <div className="header-row">
                     <div className="about-me-container">
