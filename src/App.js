@@ -1,38 +1,18 @@
-import './styles/main.css'
-
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Використовуємо Routes замість Switch
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import About from './pages/About';
-import Contacts from './pages/Contacts';
+import './styles/main.css'
+import Lab1 from './components/Pages/Lab1/lab1'
 
-
-
-
-
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <div className="App">
-
-        <Navbar />
-        
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contacts' element={<Contacts />} />
-          <Route path='/about' element={<About />} />
-        </Routes>
-
-        <Footer />
-
-      </div>
-    </BrowserRouter>
+    <Router>
+      <Navbar />
+      <Routes> 
+        <Route path="/lab1" element={<Lab1 />} /> {/* Використовуємо 'element' для рендеру компонента Lab1 */}
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

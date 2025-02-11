@@ -1,0 +1,162 @@
+/* src/Pages/Lab1/lab1.css */
+
+/* Загальний стиль для контейнера форми */
+.lab1-container {
+  margin-top: 120px; /* Враховуємо висоту навбару */
+  padding: 30px;
+  background: #282c33; /* Тільки цей фон */
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.lab1-container:hover {
+  transform: scale(1.02);
+}
+
+/* Заголовок сторінки */
+.lab1-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c778dd;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Стилі для форми */
+.lab1-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.lab1-form:hover {
+  transform: scale(1.02);
+}
+
+/* Стиль для кожного елемента форми */
+.lab1-label {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #abb2bf;
+  font-weight: 600;
+}
+
+.lab1-input, .lab1-select {
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  margin: 10px 0;
+  background-color: #333d49;
+  color: #abb2bf;
+  border: 2px solid #c778dd;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0px 0px 15px rgba(199, 120, 221, 0.5);
+  transition: all 0.3s ease;
+}
+
+.lab1-input:focus, .lab1-select:focus {
+  border-color: #5f4b8b;
+  box-shadow: 0 0 25px rgba(199, 120, 221, 0.7);
+}
+
+/* Неоновий ефект при наведенні */
+.lab1-input:hover, .lab1-select:hover {
+  border-color: #61dafb;
+  box-shadow: 0 0 20px rgba(97, 218, 251, 0.6);
+}
+
+/* Стиль для чекбоксів товарів */
+.lab1-checkbox-group {
+  margin: 25px 0;
+}
+
+.lab1-checkbox-group div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lab1-checkbox-group input[type="checkbox"] {
+  margin-right: 12px;
+  transform: scale(1.5);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.lab1-checkbox-group input[type="checkbox"]:checked {
+  transform: scale(1.6);
+  color: #c778dd;
+}
+
+.lab1-checkbox-group label {
+  font-size: 1.1rem;
+  color: #abb2bf;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.lab1-checkbox-group input[type="checkbox"]:checked + label {
+  color: #c778dd;
+  font-weight: 600;
+}
+
+/* Стиль для кнопки */
+.lab1-submit-btn {
+  background-color: #c778dd;
+  color: white;
+  font-size: 1.2rem;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 25px;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.lab1-submit-btn:hover {
+  background-color: #5f4b8b;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lab1-submit-btn:active {
+  background-color: #9b7b9b;
+}
+
+/* Стилі для підсвічування вибраних товарів */
+.lab1-checkbox-group input[type="checkbox"]:checked + label {
+  background-color: rgba(199, 120, 221, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Відображення вибраних товарів */
+.lab1-checkbox-group div.selected-product {
+  background-color: rgba(199, 120, 221, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.lab1-checkbox-group div.selected-product:hover {
+  background-color: rgba(199, 120, 221, 0.4);
+}
+
+/* Стиль для підсвічування вибраного продукту */
+.lab1-checkbox-group input[type="checkbox"]:checked {
+  background-color: #5f4b8b;
+  border: 2px solid #c778dd;
+  transition: all 0.3s ease;
+}

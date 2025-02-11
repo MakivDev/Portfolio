@@ -1,77 +1,78 @@
-/* nav */
+/* Основні стилі навбару */
 .nav-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header-nav {
-    background-color: #282c33;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 16px 8px;
-    max-width: 1050px;
-    width: 75vw;
-    position: fixed;
-    z-index: 10000;
-    box-shadow: 0 0 0.5px #c778dd;
-  }
-  
-  .nav-list {
-    right: 155px;
-    display: flex;
-    column-gap: 32px; /*відступи між колонками */
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
-  .nav-link {
-    color: #abb2bf;
-    white-space: nowrap;
-  }
-  
-  .nav-link.active {
-    color: white;
-    font-weight: 700;
-  }
-  
-  .nav-button {
-    display: none;
-  }
-  
-  .nav-button1,
-  .nav-button2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 5px;
-  }
-  
-  .nav-button-up1 {
-    background: #abb2bf;
-    width: 25px;
-    height: 2px;
-  }
-  .nav-button-down1 {
-    background: #abb2bf;
-    width: 15px;
-    height: 2px;
-  }
-  
-  .nav-button-up2 {
-    background: #abb2bf;
-    width: 25px;
-    height: 2px;
-  }
-  .nav-button-down2 {
-    background: #abb2bf;
-    width: 15px;
-    height: 2px;
-  }
-  
-  .lattice {
-    color: var(--primary, #c778dd);
-    font-size: 16px;
-    font-weight: 400;
-  }
-  
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #282c33;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #abb2bf;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #61dafb;
+  transform: translateY(-2px); /* легкий ефект підняття */
+}
+
+.nav-link.active {
+  color: white;
+  font-weight: 700;
+}
+
+.nav-button {
+  display: none;
+}
+
+.nav-button1, .nav-button2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-button-up1, .nav-button-up2, .nav-button-down1, .nav-button-down2 {
+  background: #abb2bf;
+  width: 30px;
+  height: 3px;
+  transition: background 0.3s ease;
+}
+
+.nav-button-up1:hover, .nav-button-up2:hover {
+  background: #61dafb;
+}
+
+.nav-button-down1, .nav-button-down2 {
+  width: 20px;
+}
+
+.lattice {
+  color: var(--primary, #c778dd);
+  font-size: 16px;
+  font-weight: 400;
+}
